@@ -35,6 +35,7 @@ LOGGING = {
 # Application definition
 
 INSTALLED_APPS = [
+    'health_check',
     'test_app',
     'daphne',
     'chat',
