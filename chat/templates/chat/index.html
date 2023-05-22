@@ -1,0 +1,22 @@
+<!-- chat/templates/chat/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chat Rooms</title>
+</head>
+<body>
+    Lower to Upper<br>
+
+    <input id="room-name-submit" type="button" value="Enter">
+
+    <script>
+
+        document.querySelector('#room-name-submit').onclick = function(e) {
+            var roomName = 'ltu';
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+    </script>
+</body>
+</html>
+
